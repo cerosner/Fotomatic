@@ -39,14 +39,14 @@ html {
   .main-content {
     top: 2.5625rem;
     position: inherit;
-    overflow: scroll;
+    overflow: hidden;
   }
 }
 
 @media only screen and (max-device-width: 480px), (max-width: 480px) {
   .main-content {
     position: inherit;
-    overflow: scroll;
+    overflow: hidden;
   }
 }
 
