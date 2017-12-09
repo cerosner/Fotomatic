@@ -35,7 +35,7 @@ html {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -93,7 +93,7 @@ header .tablet {
 }
 
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   nav.desktop {
     display: none;
   }
@@ -122,13 +122,13 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 590px) {
+@media only screen and (max-device-width: 590px) {
   nav li {
     padding-left: 1rem;
   }
 }
 
-@media only screen and (max-width: 527px) {
+@media only screen and (max-device-width: 527px) {
   nav li {
     padding-left: .25rem;
   }
@@ -139,7 +139,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   header {
     height: 3rem;
   }
@@ -233,7 +233,7 @@ header .tablet {
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   #sign-up-section {
     align-items: center;
     justify-content: center;
@@ -267,7 +267,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -330,7 +330,7 @@ header .tablet {
   color: #4a4a4a;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   #features-section {
     padding: 1rem .15rem;
   }
@@ -351,7 +351,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   #features-section {
     padding: 0;
     margin: 0;
@@ -423,7 +423,7 @@ header .tablet {
   width: 100%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   #filters-section {
     padding: 5rem 0 0 0;
   }
@@ -451,7 +451,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   #filters-section {
     padding: 0rem;
   }
@@ -505,7 +505,7 @@ header .tablet {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   #quotes-section .content {
     display: flex;
     padding: 3rem 1.5rem;
@@ -525,7 +525,7 @@ header .tablet {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   #quotes-section .content {
     flex-direction: column;
     text-align: center;
@@ -551,7 +551,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-device-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
