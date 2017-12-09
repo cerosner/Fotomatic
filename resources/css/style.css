@@ -138,22 +138,7 @@ header .tablet {
 }
 
 @media only screen and (max-device-width: 527px), (max-width: 527px) {
-  nav li {
-    padding-left: .25rem;
-  }
-
-  header .icon {
-    width: 1rem;
-    padding-left: 0;
-  }
-}
-
-@media only screen and (max-device-width: 480px), (max-width: 480px) {
-  header {
-    height: 3rem;
-  }
-
-  header .desktop {
+    header .desktop {
     display: none;
   }
 
@@ -164,10 +149,6 @@ header .tablet {
   header .mobile {
     display: block;
     width: 100%;
-  }
-
-  header .content {
-    padding: .5rem 0;
   }
 
   header .mobile ul {
@@ -186,6 +167,20 @@ header .tablet {
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
+  }
+}
+
+@media only screen and (max-device-width: 480px), (max-width: 480px) {
+  header {
+    height: 3rem;
+  }
+
+  header .content {
+    padding: .5rem 0;
+  }
+
+  header .mobile li {
+    padding: 0;
   }
 }
 
